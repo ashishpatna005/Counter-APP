@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(90, 137, 128);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin-top: 250px;   
+}
+.box{
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    background: white;
+}
+#counter{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.btn{
+    margin-left: 8px;
+}
+button#increment{
+    background: green;
+    
+}
+button#reset{
+    background: whitesmoke;
+    
+}
+button#decrement{
+    background: red;   
+}
+.btn button{
+    border-radius: 5px;
+    color: black;
+    padding: 10px 35px;
+    cursor: pointer;
+    font-size: 15px;
+}
